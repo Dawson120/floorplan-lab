@@ -1,7 +1,7 @@
 const Bathroom = (props) => {
   return ( 
     <>
-      <div>this the shitter</div>
+      <div>{props.bathroom.size} Bath</div>
     </>
   )
 }
