@@ -7,7 +7,6 @@ const bedrooms = [
   {bedNum: 2},
   {bedNum: 3}
 ]
-
 const bathrooms = [
   {size: 'Half'},
   {size: 'Full'}
