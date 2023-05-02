@@ -9,10 +9,11 @@ const FloorPlan = (props) => {
     <>
     <div>
       <LivingRoom />
+      <Kitchen />
       {props.bedrooms.map(bedroom => 
         <Bedroom key={bedroom.bedNum} bedroom={bedroom}/>
       )}
-      <Kitchen />
+      
       {props.bathrooms.map(bathroom => 
       <Bathroom key={bathroom.size} bathroom={bathroom}/>
       )}
